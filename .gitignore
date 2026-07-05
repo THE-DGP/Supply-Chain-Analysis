@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Data files (too large, downloaded via Kaggle)
+data/structured/*.csv
+data/unstructured/*.csv
+data/structured/*.db
+data/*.db
+
+# Vector index (too large, rebuilt on first run)
+vector_store/*.faiss
+vector_store/sentences.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
